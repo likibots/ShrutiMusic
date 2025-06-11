@@ -13,20 +13,20 @@ load_dotenv()
 # 📲 Telegram & API Credentials
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-OWNER_ID = int(os.getenv("OWNER_ID", None))
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", "WTF_WhyMeeh")
+API_ID = int(os.getenv("26306248"))
+API_HASH = os.getenv(" 3a72fc4c33de279d2705494946e35499")
+BOT_TOKEN = os.getenv("7814109113:AAHaMgOuzaeHz1ymqZSTP555lp9x53IxgHo")
+OWNER_ID = int(os.getenv("OWNER_ID", "5867783630"))
+OWNER_USERNAME = os.getenv("OWNER_USERNAME", "@Likith812")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🛠️ Database & Deployment Configs
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-MONGO_DB_URI = os.getenv("MONGO_DB_URI", None)
-LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", None))
+MONGO_DB_URI = os.getenv("MONGO_DB_URI", "mongodb+srv://likimusic:likimusic@cluster0.tn8iknx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", "-1002897976596"))
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
-HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = os.getenv("HRKU-AAVj82WgXWW50cpSvpzZoKGxrZgEJQQ32nqFA4sx1Vow_wI3k4MANOUJ")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🔄 Git & Update Settings
@@ -40,8 +40,8 @@ GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 # 🔗 Support Links
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/ShrutiBots")
-SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/ShrutiBotSupport")
+SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/dpzchannel143")
+SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/kannada_chatting0")
 PRIVACY_LINK = os.getenv("PRIVACY_LINK", "https://graph.org/Privacy-Policy-05-01-30")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -69,7 +69,7 @@ SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET", None)
 # 🧵 Session Strings (Pyrogram V2)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-STRING1 = os.getenv("STRING_SESSION", None)
+STRING1 = os.getenv("STRING_SESSION", "BQGRZsgAC4KgAi-NeMseVo2_Ems-aTvIwMRaE0DW0FfWbmiG9CKlOYUXVi6LnJccfGaGF7ssF3tLQS1oVO0iSLm8xwnLCrB86wN4aZDPpLBdd6GpDWpXyDYyd-6kd_PrT5VHwFPCX6nsKt3tds7yKjceS2idTjIky2r7qLuLvgmC0fM5B9hCTqafzpih8IEXTMYAjULqXJWeVwH6w1pw0gOBMJtGdqcl7bMAeVUGR98QYT-HKlQT4MJn59Lm1bJvfQla2GOMlXC-WceF1M18oWrrYroiP1V12vAjxqTfNiI3HytjwHn74mE7tIbguNeEQnZ5f8PUY-21lJXwZsm0Rf-FNfa5-QAAAAG6CCANAA")
 STRING2 = os.getenv("STRING_SESSION2", None)
 STRING3 = os.getenv("STRING_SESSION3", None)
 STRING4 = os.getenv("STRING_SESSION4", None)
